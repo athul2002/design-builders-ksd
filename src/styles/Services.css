@@ -1,0 +1,80 @@
+.Services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height:max-content;
+    background-color: azure;
+  
+
+}
+
+.Servicestop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    padding-bottom: 40px;
+    padding-top: 40px;  background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.Servicesbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Servicesbottom p{
+    color: gray;
+}
+.Servicesbottom h2{
+    font-size:30px;
+}
+.Servicesoffer1,.Servicesoffer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 2cm;
+    border-color: black;
+
+
+}
+.Servicesoffer {
+    display: flex;
+    flex-direction: column;
+}
+.Servicesoffer1 img, .Servicesoffer2 img{
+    width:100px;
+    height: 50px;
+    padding-top: 20px;
+    
+}
+
+@media screen and (min-width:1700px) {
+    .Servicesoffer {
+        display: flex;
+        flex-direction: row;
+    }
+    .Servicesbottom {
+        margin-left: 1.3cm;
+       
+    }
+}
+
+    @media screen and (max-width:700px) {
+     .Servicesoffer h1{
+        font-size: 25px;
+     }
+}

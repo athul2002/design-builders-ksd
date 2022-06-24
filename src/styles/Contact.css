@@ -1,0 +1,233 @@
+.Contact{
+    width: 100%;
+    height: max-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(228, 228, 228);
+   
+
+   
+}
+
+.Contact .top{
+    width: 100%;
+    padding-top: 0%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color:rgb(228, 228, 228);
+    justify-content: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.Contact .bottom h1{
+    font-size: larger;
+}
+.Contact .bottom p{
+    font-size: larger;
+}
+.Contact .bottom{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.bottom1,.bottom2{
+    display: flex;
+    flex-direction: row;
+}
+.Adress{
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Phone{
+    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Mail{
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b1{
+    margin-right: 20px;
+    padding: 20px;
+}
+.b4,.b2{
+    margin-right: 20px;
+    padding: 20px;
+}
+.b3{
+    padding: 20px;
+}
+
+.bottom svg{
+    font-size:50px ;
+}
+
+.bottommostleft{
+    flex: 50%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color:rgb(228, 228, 228);
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.bottommostright{
+    flex: 50%;
+}
+.bottommost{
+    display: flex;
+    flex-direction: row;
+}
+.bottommost .bottommostright p{
+    font-size: larger;
+}
+.bottommost .bottommostright h1,.bottommost .bottommostright p{
+    flex: 50%;
+    padding-left: 10px;
+    position: relative;
+    left: 0cm;
+}
+.location1{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.location2{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.r,.m{
+    padding: 20px;
+    margin: 10px;
+
+}
+
+input::placeholder,textarea::placeholder{
+    font-size:19px;
+}
+
+.response button{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-radius: 0.5cm;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(2, 237, 96);
+}
+.response button:hover{
+    background-color: rgb(0, 225, 90);
+    animation: infinite;
+    transition: 10ms;
+}
+
+@media screen and (max-width:1230px) {
+    .Contact .bottom{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
+        }
+        .bottom1,.bottom2{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+        .b4{
+            margin-right: 0px;
+        }
+}
+@media screen and (max-width:700px) {
+    .Contact .bottom{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
+        }
+        .bottom1,.bottom2{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+        .b1,.b2,.b3,.b4{
+           padding: 10px;
+        }
+        
+}
+@media screen and (max-width:1610px) {
+    .Contact .bottommost{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .bottommostright{
+        margin-left: 40px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .location1,.location2{
+        width: 360px;
+    }
+}
+@media screen and (max-width:850px) {
+   .bottommostleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .location1,.location2{
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+}
+@media screen and (max-width:800px) {
+    .response{
+        display:flex;
+        flex-direction: column;
+    }
+   .m{
+    width: 10cm;
+   }
+   .response button{
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+
+}

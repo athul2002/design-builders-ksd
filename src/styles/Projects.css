@@ -1,0 +1,161 @@
+.Projects{
+    background-color: azure;
+    height: max-content;
+}
+
+.projecttop {
+    width: 100%;
+    padding-top: 0%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color:rgb(228, 228, 228);
+    justify-content: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.projectbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ProjectImages1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+.ProjectImages1 img {
+    width:500px;
+    height: 400px;
+}
+.ProjectImages2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+
+}
+.ProjectImages2 img {
+    width:500px;
+    height: 400px;
+
+    
+}
+.ProjectImages3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+
+}
+.ProjectImages3 img {
+    width:500px;
+    height: 400px;
+
+    
+}
+.ProjectImages4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+
+}
+.ProjectImages4 img {
+    width:500px;
+    height: 400px;
+    
+}
+.ProjectImages5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+
+}
+.ProjectImages5 img {
+    width:500px;
+    height: 400px;
+
+    
+}
+.ProjectImages6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+
+}
+.ProjectImages6 img {
+    width:500px;
+    height: 400px;
+
+    
+}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10,.p11,.p12{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+@media screen and (min-width:1500px) {
+    .Projects img:hover{
+        transform:scale(1.5);
+    }
+    
+}
+@media screen and (min-width:600px) and (max-width:1300px){
+
+   .ProjectImages1, .ProjectImages2,.ProjectImages3,.ProjectImages4, 
+    .ProjectImages5, .ProjectImages6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+}
+
+@media screen and (max-width:600px){
+
+    .ProjectImages1, .ProjectImages2,.ProjectImages3,.ProjectImages4, 
+     .ProjectImages5, .ProjectImages6 {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     margin: 20px;
+ 
+ }
+ .ProjectImages1 img,.ProjectImages2 img,.ProjectImages3 img,.ProjectImages3 img,.ProjectImages4 img,.ProjectImages5 img,.ProjectImages6 img{
+    height: 350px;
+    width: 400px;
+ }
+ }
+ 

@@ -1,0 +1,118 @@
+import { Box } from '@material-ui/core'
+import React from 'react'
+import '../styles/Contact.css'
+import Phone from '@material-ui/icons/PhoneAndroid'
+import Mail from '@material-ui/icons/Mail'
+import Location from '@material-ui/icons/LocationCity'
+import contact from '../pics/1.jpg'
+import { useEffect } from "react";
+
+function Contact() {
+
+  
+  return (
+    <div className='Contact' >
+      <div className='top' style={{backgroundImage:`url(${contact})`}}>
+        <h1>
+          CONTACT US
+        </h1>
+      </div>
+      <div className='bottom'>
+        <div className='bottom1'>
+         <Box border={3} height='6.2cm' width='6cm' className='b1' borderColor='rgb(169,169,169)' borderRadius="0.5cm">
+
+          <div className='Adress'>
+
+             <Location style={{color:'rgb(252, 107, 3)'}}/>
+             <h2>
+             ADDRESS
+             </h2>
+             <p>
+                Near Panchayath Office<br/> 
+                Kuttikol <br/>
+                Kuttikol PO <br/>
+                Kasaragod <br/>
+                Kerala
+             </p>
+          </div>
+         </Box> 
+         <Box border={3} height='6.2cm' width='6cm' className='b4' borderColor='rgb(169,169,169)' borderRadius="0.5cm">
+           <div className='Adress'>
+             <Location style={{color:'rgb(252, 107, 3)'}}/>
+             <h2>
+               ADDRESS
+             </h2>
+             <p>
+               Near Panchayath Office<br/> 
+               Bedakam<br/>
+               Bedakam PO <br/>
+               Kasaragod <br/>
+               Kerala
+             </p>
+          </div>
+         </Box> 
+         </div>
+         <div className='bottom2'>
+         <Box border={3} height='6.2cm' width='6cm' className='b2' borderColor='rgb(169,169,169)' borderRadius="0.5cm">
+             <div className='Mail'>
+               <Mail style={{color:'rgb(252, 107, 3)'}}/>
+               <h2>
+                 MAIL ID
+               </h2>
+               <p>
+                  designbuilderskkl@gmail.com
+               </p>
+
+             </div>
+         </Box>
+         <Box border={3} height='6.2cm' width='6cm' className='b3' borderColor='rgb(169,169,169)' borderRadius="0.5cm">
+             <div className='Phone'>
+               <Phone style={{color:'rgb(252, 107, 3)'}}/>
+               <h2>
+               PHONE NUMBER
+               </h2>
+               <p>
+               9447653632<br/>9745417255
+               </p>
+             </div>
+         </Box>
+         </div>
+      </div>
+      <div className='bottommost'>
+          <div className='bottommostleft'>
+       <iframe className='location1'
+       title='location'
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.5799846072746!2d75.2096138140044!3d12.477667991181283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4892e0d3bfd4f%3A0x4728be4c0f248f49!2sKuttikol%20Panchayat%20Office!5e0!3m2!1sen!2sin!4v1654705192709!5m2!1sen!2sin" 
+       width="400" height="390"loading="lazy" r
+       eferrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <iframe title='L' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.48890850898363!2d75.16600792474746!3d12.461536392152105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba488a2d4c532eb%3A0xb0be3203b4d7f7ee!2sBedadka%20Panchayath!5e0!3m2!1sen!2sin!4v1654830760650!5m2!1sen!2sin" 
+      width="400" height="390" className='location2'></iframe>
+      </div>
+     <div className='bottommostright'>
+       <h1 >
+         GET IN TOUCH
+       </h1>   
+       <p>
+       Have some suggestions or need to contact us?
+       </p>
+       <div className='response'>
+       <label htmlFor='Name' ></label>
+       <input name='Name' type='text' placeholder='Name' className='r'></input>
+       <label htmlFor='Email' ></label>
+       <input  name='Email' placeholder='Email' type='email' className='r'></input> 
+       <label htmlFor='PhoneNumber'></label>
+       <input name='PhoneNumber' type='text' placeholder='Phone Number' className='r'></input>
+       <br/>
+       <label htmlFor='Message' ></label>
+       <textarea name='Message' placeholder='Message' rows="6" cols="85" className='m'></textarea> <br/>
+       <button type= 'submit'  >Send Message</button>
+       </div>
+      
+     </div>
+      </div>
+    </div>
+  )
+}
+
+export default Contact

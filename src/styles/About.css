@@ -1,0 +1,162 @@
+.About {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.About .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+
+}
+
+.About .bottom{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+
+}
+.About .bottom .Aboutleft{
+    flex: 50%;
+    padding-right: 50px;
+    padding-left: 90px;
+    
+    
+}
+.About .bottom .Aboutleft p{
+    font-size: larger;
+}
+.About .bottom .Aboutright{
+    flex: 50%;
+    padding-right: 30px;
+}
+
+.Aboutright img{
+    height: 12cm;
+}
+
+.Aboutleft button
+{
+    
+    font-size: medium;
+    background-color: white;
+    border-radius: 0.2cm;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    animation: forwards;
+    cursor:pointer;
+
+    animation-duration: 3s;
+}
+
+.Aboutleft button:hover{
+    background-color: rgb(101, 250, 75);
+
+}
+
+.Aboutbottommost{
+    background-color:rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aboutbottommost img{
+    width: 350px;
+    height: 350px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.rkimage{
+    display: flex;
+    flex-direction: column;
+}
+
+.teamimage{
+    display: flex;
+    flex-direction: row;
+}
+
+.rkb{
+    width: 350px; 
+    margin-left: 0.5cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    height: 2cm;
+    color: grey;
+    font-size: larger;
+    margin-top: 0.1cm;
+}
+.pkb{
+    width: 350px; 
+    margin-left: 0.5cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    height: 2cm;
+    color: grey;
+    font-size: larger;
+}
+
+@media screen and (max-width:1300px) and (min-width:790px) {
+    .About .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Aboutright img{
+       display: none;
+    }
+    
+
+}
+@media screen and (max-width:790px)  {
+    .About{
+        height: max-content;
+    }
+    .About .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Aboutright img{
+       display: none;
+    }
+    
+    .Aboutbottommost{
+        background-color:rgb(228, 228, 228);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .teamimage{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

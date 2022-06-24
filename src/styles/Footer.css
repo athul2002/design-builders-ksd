@@ -1,0 +1,25 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    padding-bottom: 0%;
+    padding: 30px;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+ .Footer p{
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .Footer .SocialMedia svg{
+
+     padding: 10px;
+     font-size: 40px;
+
+ }
