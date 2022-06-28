@@ -134,10 +134,15 @@
       padding: 0px;
 
     }
+
     .navbar .rightside{
       padding-left: 0px;
       padding-right: 15px;
     }
-    
+
+    .navbar .leftside img{
+      width: 150px;
+      padding-left: 0px;
+  }
     
   }
