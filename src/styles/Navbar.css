@@ -78,7 +78,7 @@
   
   .navbar #open .hiddenLinks {
     display: inherit;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   
   .navbar #close .hiddenLinks {
@@ -89,7 +89,7 @@
     font-size: 17px;
     color: azure;
     text-decoration: none;
-    margin: 10px;
+    margin: 2px;
   }
 
 @media screen and (max-width: 940px)
@@ -119,4 +119,25 @@
     .hiddenLinks {
       display: none;
     }
+  }
+  @media screen and (max-width:800px)
+  {
+
+    .navbar #open .hiddenLinks {
+      display: flex;
+      flex-direction:row;
+      padding: 0px;
+      
+    }
+    .navbar #open a{
+      transform: rotate(-90deg);
+      padding: 0px;
+
+    }
+    .navbar .rightside{
+      padding-left: 0px;
+      padding-right: 15px;
+    }
+    
+    
   }
