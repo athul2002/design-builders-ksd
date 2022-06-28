@@ -249,6 +249,7 @@ input::placeholder,textarea::placeholder{
          }
          .b1,.b2,.b3,.b4{
             padding: 10px;
+            padding-bottom: 30px;
             margin: 20px;
          }
          .response{
