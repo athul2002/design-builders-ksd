@@ -111,11 +111,13 @@
 .location1{
     margin-left: 40px;
     margin-bottom: 20px;
+    
 }
 .location2{
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
 .r,.m{
     padding: 20px;
     margin: 10px;
@@ -137,11 +139,14 @@ input::placeholder,textarea::placeholder{
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
     background-color: rgb(2, 237, 96);
+
 }
 .response button:hover{
     background-color: rgb(0, 225, 90);
     animation: infinite;
     transition: 10ms;
+    cursor: pointer;
+
 }
 
 @media screen and (max-width:1230px) {
@@ -161,7 +166,7 @@ input::placeholder,textarea::placeholder{
             margin-right: 0px;
         }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .Contact .bottom{
        display: flex;
        flex-direction: column;
@@ -230,4 +235,38 @@ input::placeholder,textarea::placeholder{
     
 }
 
+}
+@media screen and (max-width:650px) {
+    .Contact .bottom{
+       display: flex;
+       flex-direction: column;
+         }
+         .bottom1,.bottom2{
+             display: flex;
+             flex-direction: column;
+             margin-bottom: 20px;
+
+         }
+         .b1,.b2,.b3,.b4{
+            padding: 10px;
+            margin: 20px;
+         }
+         .response{
+            display:flex;
+            flex-direction: column;
+        }
+       .m{
+        width: 7cm;
+       }
+       .response button{
+        font-size: 20px;
+        padding-right: 3px;
+        padding-left: 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 10px;
+        margin-bottom: 20px;
+        
+    }
+   
 }
