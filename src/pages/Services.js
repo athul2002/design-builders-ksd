@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box } from '@material-ui/core'
+import {Box} from '@mui/material'
 import '../styles/Services.css'
 import services1 from "../pics/constrwork.jpg"
 import services2 from "../pics/buildingplan.jpg"

@@ -1,14 +1,17 @@
-import { Box } from '@material-ui/core'
+import {Box} from '@mui/material'
 import React from 'react'
 import '../styles/Contact.css'
-import Phone from '@material-ui/icons/PhoneAndroid'
-import Mail from '@material-ui/icons/Mail'
-import Location from '@material-ui/icons/LocationCity'
+import Phone from '@mui/icons-material/PhoneAndroid'
+import Mail from '@mui/icons-material/Mail'
+import Location from '@mui/icons-material/LocationCity'
 import contact from '../pics/1.jpg'
 import { useEffect } from "react";
 
 function Contact() {
-
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   
   return (
     <div className='Contact' >

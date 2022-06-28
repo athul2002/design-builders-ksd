@@ -4,7 +4,7 @@ import backgroundabout from '../pics/backgroundabout.jpg'
 import {Link} from 'react-router-dom'
 import pkimage from '../pics/pk.jpeg'
 import rkimage from '../pics/rk.jpeg'
-import Box from '@material-ui/core/Box';
+import {Box} from '@mui/material'
 import backimage from '../pics/1.jpg'
 import { useEffect } from "react";
 

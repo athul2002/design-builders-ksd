@@ -1,7 +1,7 @@
 import React from 'react'
-import FacebookIcon from '@material-ui/icons/Facebook'
-import MailIcon from '@material-ui/icons/Mail'
-import WhatsappIcon from '@material-ui/icons/WhatsApp'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import MailIcon from '@mui/icons-material/Mail'
+import WhatsappIcon from '@mui/icons-material/WhatsApp'
 import '../styles/Footer.css'
 
 function Footer() {
