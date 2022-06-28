@@ -269,5 +269,8 @@ input::placeholder,textarea::placeholder{
         margin-bottom: 20px;
         
     }
+    .location1,.location2{
+        width: 350px;
+    }
    
 }
