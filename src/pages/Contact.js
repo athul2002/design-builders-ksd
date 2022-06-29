@@ -11,7 +11,9 @@ import { useEffect } from "react";
 
 export const ContactUs = () => {
   const form = useRef();
-
+  function refreshPage() {
+    window.location.reload(false);
+  }
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -120,13 +122,13 @@ export const ContactUs = () => {
       <label ></label>
       <input type="text" name="user_name" className='r' placeholder='Name'/>
       <label></label>
-      <input type="email" name="user_email" className='r'placeholder='Email' />
+      <input type="email" name="user_email" className='r'placeholder='Email'  />
       <label ></label>
-       <input name='user_number' type='text' placeholder='Phone Number' className='r'></input>
+       <input name='user_number' type='number' placeholder='Phone Number' className='r'></input>
       <label></label>
       <br/>
       <textarea name="message" placeholder='Message' rows="6" cols="85" className='m'/><br/>
-      <input type="submit" value="Send Message" className='button' />
+      <input type="submit" value="Send Message" className='button' onClick={refreshPage} />
     </form>
        </div>
    
