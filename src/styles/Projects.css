@@ -141,7 +141,7 @@
 }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:650px){
 
     .ProjectImages1, .ProjectImages2,.ProjectImages3,.ProjectImages4, 
      .ProjectImages5, .ProjectImages6 {
@@ -154,8 +154,15 @@
  
  }
  .ProjectImages1 img,.ProjectImages2 img,.ProjectImages3 img,.ProjectImages3 img,.ProjectImages4 img,.ProjectImages5 img,.ProjectImages6 img{
-    height: 350px;
-    width: 400px;
+    height: 300px;
+    width: 350px;
  }
  }
- 
+ @media screen and (max-width:410px)
+ {
+
+ .ProjectImages1 img,.ProjectImages2 img,.ProjectImages3 img,.ProjectImages3 img,.ProjectImages4 img,.ProjectImages5 img,.ProjectImages6 img{
+    height: 300px;
+    width: 330px;
+ }
+ }

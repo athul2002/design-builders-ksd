@@ -122,6 +122,10 @@
   }
   @media screen and (max-width:800px)
   {
+    .navbar{
+      position:inherit;
+
+    }
 
     .navbar #open .hiddenLinks {
       display: flex;

@@ -90,7 +90,7 @@
   .headerContainer h1{
     color: rgb(245, 0, 0);
     margin-bottom: 150px;
-    font-size: 80px;
+    
 
   }
   .headerContainer h3{
@@ -101,7 +101,5 @@
   .headerContainer {
     width: auto;
     margin-left: 10px;
-    
   }
-  
 }
