@@ -1,3 +1,5 @@
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import {Box} from '@mui/material'
 import React from 'react'
 import '../styles/Contact.css'
@@ -7,12 +9,26 @@ import Location from '@mui/icons-material/LocationCity'
 import contact from '../pics/backimage.webp'
 import { useEffect } from "react";
 
-function Contact() {
+export const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_foasrka', 'template_s2rs4ni', form.current, 'GlNtd3V9iwdQxQRqh')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message sent");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   useEffect(() => {
     // 👇️ scroll to top on page load
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }, []);
   
+
   return (
     <div className='Contact' >
       <div className='top' style={{backgroundImage:`url(${contact})`}}>
@@ -100,22 +116,22 @@ function Contact() {
        Have some suggestions or need to contact us?
        </p>
        <div className='response'>
-       <label htmlFor='Name' ></label>
-       <input name='Name' type='text' placeholder='Name' className='r'></input>
-       <label htmlFor='Email' ></label>
-       <input  name='Email' placeholder='Email' type='email' className='r'></input> 
-       <label htmlFor='PhoneNumber'></label>
-       <input name='PhoneNumber' type='text' placeholder='Phone Number' className='r'></input>
-       <br/>
-       <label htmlFor='Message' ></label>
-       <textarea name='Message' placeholder='Message' rows="6" cols="85" className='m'></textarea> <br/>
-       <button type= 'submit'  >Send Message</button>
+       <form ref={form} onSubmit={sendEmail}>
+      <label ></label>
+      <input type="text" name="user_name" className='r' placeholder='Name'/>
+      <label></label>
+      <input type="email" name="user_email" className='r'placeholder='Email' />
+      <label ></label>
+       <input name='user_number' type='text' placeholder='Phone Number' className='r'></input>
+      <label></label>
+      <br/>
+      <textarea name="message" placeholder='Message' rows="6" cols="85" className='m'/><br/>
+      <input type="submit" value="Send Message" className='button' />
+    </form>
        </div>
-      
-     </div>
+   
+    </div>
       </div>
     </div>
-  )
-}
-
-export default Contact
+  );
+};

@@ -126,7 +126,13 @@
       position:inherit;
 
     }
-
+    .nav-menu.active {
+      background: #242222;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
     .navbar #open .hiddenLinks {
       display: flex;
       flex-direction:row;
@@ -148,4 +154,6 @@
       width: 150px;
       padding-left: 0px;
   }
+
   }
+  
