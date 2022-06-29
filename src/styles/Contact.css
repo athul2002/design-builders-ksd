@@ -148,7 +148,11 @@ input::placeholder,textarea::placeholder{
     cursor: pointer;
 
 }
-
+.bottom2 a{
+    color: black;
+    padding-top: 20px;
+    font-size: larger;
+}
 @media screen and (max-width:1230px) {
     .Contact .bottom{
        display: flex;
