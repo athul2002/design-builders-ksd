@@ -14,7 +14,7 @@ import p11 from '../pics/11.jpeg'
 import p12 from '../pics/12.jpeg'
 import '../styles/Projects.css'
 import { useEffect } from "react";
-import projects from '../pics/1.jpg'
+import projects from '../pics/backimage.webp'
 function Projects() {
   useEffect(() => {
     // 👇️ scroll to top on page load

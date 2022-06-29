@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 import pkimage from '../pics/pk.jpeg'
 import rkimage from '../pics/rk.jpeg'
 import {Box} from '@mui/material'
-import backimage from '../pics/1.jpg'
+import backimage from '../pics/backimage.webp'
 import { useEffect } from "react";
 
 function About() {
@@ -21,8 +21,9 @@ function About() {
        <h1>
         ABOUT US
       </h1> <br/>
-      </div>
       
+      </div>
+     
       <div className='bottom'>
         <div className='Aboutleft'>
            <h2>ABOUT DESIGN BUILDERS</h2>

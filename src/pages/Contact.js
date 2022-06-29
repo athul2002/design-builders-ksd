@@ -4,7 +4,7 @@ import '../styles/Contact.css'
 import Phone from '@mui/icons-material/PhoneAndroid'
 import Mail from '@mui/icons-material/Mail'
 import Location from '@mui/icons-material/LocationCity'
-import contact from '../pics/1.jpg'
+import contact from '../pics/backimage.webp'
 import { useEffect } from "react";
 
 function Contact() {

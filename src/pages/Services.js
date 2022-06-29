@@ -6,7 +6,7 @@ import services2 from "../pics/buildingplan.jpg"
 import services3 from "../pics/estimate.jpg"
 import services4 from "../pics/supervision.jpg"
 import { useEffect } from "react";
-import services from '../pics/1.jpg'
+import services from '../pics/backimage.webp'
 function Services() {
   useEffect(() => {
     // 👇️ scroll to top on page load

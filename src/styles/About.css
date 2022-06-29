@@ -7,11 +7,11 @@
     background-size: cover;
 }
 
+
 .About .top {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
     padding-bottom: 40px;
     padding-top: 40px;
     margin-bottom: 40px;
@@ -173,4 +173,6 @@
 
     animation-duration: 3s;
 }
+
+
 }
