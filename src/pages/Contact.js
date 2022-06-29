@@ -62,7 +62,7 @@ function Contact() {
                <h2>
                  MAIL ID
                </h2>
-               <a href='mailto:designbuilderskkl@gmail.com' target='_blank' style={{textDecoration:'none'}} >
+               <a href='mailto:designbuilderskkl@gmail.com' target='_blank' style={{textDecoration:'none'}} rel="noreferrer">
                   designbuilderskkl@gmail.com
                </a>
 
