@@ -1,28 +1,45 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Link} from 'react-router-dom';
 import Logo from '../pics/logo.png'
 import '../styles/Navbar.css'
-import  {useState} from 'react'
-import ReorderIcon from '@mui/icons-material/Reorder'
+import {FaBars, FaTimes} from 'react-icons/fa'
+
 
 function Navbar() {
-  const [openLinks, setOpenLinks]= useState(false)
-  const toggleNavbar = () =>{
-    setOpenLinks(!openLinks)
-  }
+ const [click,setClick]=useState(false)
+ const handleClick=()=> setClick(!click)
   return (
     <div className='navbar'>
-        <div className='leftside'  id={openLinks?"open":"close"}>
+        <div className='leftside' >
             <img src={Logo} alt='Error while loading'></img>
-            <div className='hiddenLinks'>
-            <Link to="/" >Home</Link>
-            <Link to="/projects">Projects</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-            </div>
         </div>  
+      
         <div className='rightside'>
+          <div className='Navmob'>
+          <div className='navbar-container container'>
+          <div className='menu-icon' onClick={handleClick}>
+            {click? <FaTimes/>:<FaBars/>}
+          </div>
+          <ul className={click?'nav-menu active':'nav-menu'} sty>
+            <li className='nav-item'>
+            <Link to='/' onClick={useState(false)}>Home</Link>
+            </li>
+            <li className='nav-item'>
+            <Link to='/projects'  onClick={useState(false)}>Projects</Link>
+            </li>
+            <li className='nav-item'>
+            <Link to='/services'onClick={useState(false)}>Services</Link>
+            </li>
+            <li className='nav-item'>
+            <Link to='/about' onClick={useState(false)}>About</Link>
+            </li>
+            <li className='nav-item'>
+            <Link to='/contact' onClick={useState(false)}>Contact</Link>
+            </li>
+          </ul>
+         </div>
+          </div>
+        
           <button className='b'>
           <Link to='/'>Home</Link>
            </button>
@@ -38,9 +55,7 @@ function Navbar() {
            <button className='b'>
            <Link to='/contact'>Contact</Link>
            </button >
-           <button className='reorderbutton' onClick={toggleNavbar}>
-            <ReorderIcon/>
-           </button>
+           
         </div>
     </div>
   )
