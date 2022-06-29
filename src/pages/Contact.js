@@ -124,7 +124,7 @@ export const ContactUs = () => {
       <label></label>
       <input type="email" name="user_email" className='r'placeholder='Email'  />
       <label ></label>
-       <input name='user_number' type='text' placeholder='Phone Number' className='r'></input>
+       <input name='user_number' type='number' placeholder='Phone Number' className='r'></input>
       <label></label>
       <br/>
       <textarea name="message" placeholder='Message' rows="6" cols="85" className='m'/><br/>
