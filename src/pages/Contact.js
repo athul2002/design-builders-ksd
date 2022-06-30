@@ -27,7 +27,10 @@ export const ContactUs = () => {
     // 👇️ scroll to top on page load
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }, []);
-  
+ function myfun(){
+  if(alert('Message sent')){}
+else    window.location.reload(); 
+ } 
 
   return (
     <div className='Contact' >
@@ -126,7 +129,7 @@ export const ContactUs = () => {
       <label></label>
       <br/>
       <textarea name="message" placeholder='Message' rows="6" cols="85" className='m'/><br/>
-      <input type="submit" value="Send Message" className='button'  />
+      <input type="submit" value="Send Message" className='button' onClick={myfun} />
     </form>
        </div>
    
