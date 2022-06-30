@@ -18,7 +18,7 @@ export const ContactUs = () => {
     emailjs.sendForm('service_foasrka', 'template_s2rs4ni', form.current, 'GlNtd3V9iwdQxQRqh')
       .then((result) => {
           console.log(result.text);
-          console.log("Message sent");
+          myfun();
       }, (error) => {
           console.log(error.text);
       });
@@ -129,7 +129,7 @@ else    window.location.reload();
       <label></label>
       <br/>
       <textarea name="message" placeholder='Message' rows="6" cols="85" className='m'/><br/>
-      <input type="submit" value="Send Message" className='button' onClick={myfun} />
+      <input type="submit" value="Send Message" className='button' />
     </form>
        </div>
    
