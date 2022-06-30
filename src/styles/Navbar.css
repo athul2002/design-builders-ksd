@@ -66,12 +66,14 @@
       }
       .navbar {
         position: sticky;
+        
       }
       ul {
         list-style-type: none;
     }
       .NavbarItems {
         position: relative;
+
       }
   
       .nav-menu {
@@ -90,7 +92,7 @@
       }
     
       .nav-menu.active {
-        
+        overflow: scroll;
         background: #323131;
         left: 0;
         opacity: 1;
