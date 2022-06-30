@@ -36,17 +36,19 @@ function Services() {
             CONTRACT WORKS
           </h1>
           <p>
-            s.gfnkdllkblmbllk
+          We take full building construction contract & On -time completion of the work will be guaranteed with cost effective means of construction.
           </p>
 
         </Box>
          <Box className='s1' border={3}>
           <img src={services2}  alt='Error'/>
           <h1>
-            BUILDING PLAN
+            PERMIT CONSULTANT
           </h1>
           <p>
-            s.gfnkdllkblmbllk
+          We will assist you in obtaining all required building permits, from the beginning to the end of the construction process.
+
+Provides all construction drawings (building plan ,site plan, service plan ,key plan etc) & online documentation required for permit approval from concerned authority
           </p>
 
         </Box>
@@ -59,7 +61,7 @@ function Services() {
             ESTIMATE
           </h1>
           <p>
-            s.gfnkdllkblmbllk
+          Provides Building Estimates and project Reports required for bank loans
           </p>
 
         </Box> 
@@ -69,7 +71,8 @@ function Services() {
             SUPERVISION
           </h1>
           <p>
-            s.gfnkdllkblmbllk
+           
+We supervise your construction works with experienced engineers and ensure the  quality of work as per client requirements.
           </p>
         </Box> 
 

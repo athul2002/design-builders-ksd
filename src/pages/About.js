@@ -27,10 +27,10 @@ function About() {
       <div className='bottom'>
         <div className='Aboutleft'>
            <h2>ABOUT DESIGN BUILDERS</h2>
-           <p>Design builders is a construction company with head office located at Kuttikol and with a branch at Bedakam.
-              Greentech Builders was founded by a group of seasoned and experienced professionals to tap into the real estate market in Kerala. From its inception, the organization has seen tremendous growth, building from strength to strength. And as a result, today the Company's name has become synonymous with top-notch construction services in Kerala.
-            <br/><br/>
-              We at Greentech are committed to design, develop and construct affordable yet luxurious commercial and residential projects with the highest standards of quality and customer satisfaction. We strive to be ecologically and socially responsible citizens and prevent environmental pollution and depletion of natural resources. 
+           <p>Design Builders  is one of the  leading construction company in kasaragod,Kerala Headquartered in kuttikol with Branch Office at bedakam.
+Design Builders  strives to make a positive difference with quality work delivered in every project with 35 years of experience and in-house expertise giving our clients the confidence towards our responsible and committed accountability on all our project engagements.
+<br/> <br/>We at Design bulders are committed to design, develop and construct affordable yet luxurious commercial and residential projects with the highest standards of quality and customer satisfaction. We strive to be ecologically and socially responsible citizens and prevent environmental pollution and depletion of natural resources.
+            
           </p>
           <Link to='/projects'>
           <button>
